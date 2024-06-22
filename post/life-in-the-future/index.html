@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Life in the future (未来的生活) | 空格君的博客</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://adf1ce.github.io/favicon.ico?v=1719048872222">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://adf1ce.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://adf1ce.github.io">
+        <img class="avatar" src="https://adf1ce.github.io/images/avatar.png?v=1719048872222" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://adf1ce.github.io">
+        <h1 class="site-title">空格君的博客</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Life in the future (未来的生活)</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2023-12-23</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://adf1ce.github.io/tag/english-zw/">
+                    英语写作
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content" v-pre>
+            <p>With the development of science and technology, life in the future will be quite different.</p>
+<p>First of all, the environment that we live in will become better and better. There will be no heavy traffic in our cities so that we can drive smoothly.</p>
+<p>In the second place, we may be able to go to other planets by spaceship or build many buildings there.</p>
+<p>At the same time, we needn't to do dangerous work for ourselves as artificial intelligence develops rapidly. Because robots will replace us to do it.</p>
+<p>The most important, we will put to use new energy that is inexhaustible in the future.</p>
+<p>译文：<br>
+随着科学技术的发展，未来的生活将会截然不同。首先，我们生活的环境会变得越来越好。我们的城市将没有拥挤的交通以便于我们可以顺畅地行驶。其次，我们可能能够乘宇宙飞船去其他行星，或是在那里建造许多建筑。与此同时，随着人工智能的快速发展，我们不需要亲自做危险的工作。因为机器人会代替我们做这些工作。最重要的是，我们将在未来投入使用取之不尽的新能源。</p>
+<p>do sth. for oneself 为某人做某事<br>
+artificial intelligence n. 人工智能<br>
+put to use 运用，投入使用<br>
+inexhaustible adj. 取之不尽的</p>
+
+          </div>
+        </div>
+
+        
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by  <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://adf1ce.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
